@@ -1,1 +1,1 @@
-# NITRE 2021 Challenge on Enhancing Compressed Video
+# NTIRE 2021 Challenge on Quality Enhancement of Compressed Video

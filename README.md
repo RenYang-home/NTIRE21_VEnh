@@ -84,13 +84,9 @@ In Tracks 1 and 2, videos are compressed in the YUV domain by the Low-delay P mo
 3. Compress yuv files by the command:
 ```
 path_to_HM16.20/bin/TAppEncoderStatic
-
 -c path_to_HM16.20/cfg/encoder_lowdelay_P_main.cfg
-
 -c path_to_HM16.20/cfg/per-sequence/BasketballDrill.cfg
-
 -i xxx.yuv -q 37 -wdt  (width) -hgt (height) -f (frame_num) -fr (frame_rate)
-
 -b xxx.mkv
 ```
 Note that “BasketballDrill.cfg” is a randomly selected file, and most of its information are replaced by the following configurations. Width, height, frame number and frame rate values are available in the info excel files, see “Data Access” above.
@@ -110,7 +106,6 @@ In this track, videos are compressed in the YUV domain by x265 of ffmpeg 4.3.1 a
 2. Download ffmpeg 4.3.1 at https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz or https://data.vision.ee.ethz.ch/reyang/ffmpeg-release-amd64-static.tar.xz
  
 3. Compress yuv files at 200kbps via the two-pass rate control strategy, which ensures an accurate rate control:
-4. 
 ```
 ffmpeg -pix_fmt yuv420p -s (width)x(height) -r (frame_rate) -i xxx.yuv -c:v libx265 -b:v 200k -x265-params pass=1:log-level=error -f null /dev/null
 ffmpeg -pix_fmt yuv420p -s (width)x(height) -r (frame_rate) -i xxx.yuv -c:v libx265 -b:v 200k -x265-params pass=2:log-level=error xxx.mkv

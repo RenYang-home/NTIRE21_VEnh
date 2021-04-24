@@ -79,11 +79,11 @@ To make the benchmark more convincing and solid, we will update the open source 
 
 ### Codes and Models
 
-BILIBILI AI & FDU Team: Winner of Tracks 1 and 2
+**BILIBILI AI & FDU Team**: Winner of Tracks 1 and 2
 
 Code: (may release later)
 
-NTU-SLab Team: Winner of Tracks 1 and 3
+**NTU-SLab Team**: Winner of Tracks 1 and 3, good trade-off between running time and quality performance, good generalization capability
 
 Code: (may release later)
 

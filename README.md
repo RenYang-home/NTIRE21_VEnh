@@ -1,6 +1,8 @@
 # NTIRE 2021 Challenge on Quality Enhancement of Compressed Video
 
-The homepage for the NTIRE 2021 Challenge on Quality Enhancement of Compressed Video. This challenged is organized by Ren Yang and Radu Timofte (ETH Zurich) as a part of the [NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire21/) in conjunction with CVPR 2021.
+The homepage for the NTIRE 2021 Challenge on Quality Enhancement of Compressed Video. 
+
+This challenged is organized by Ren Yang and Radu Timofte (ETH Zurich) as a part of the [NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire21/) in conjunction with CVPR 2021.
 
 If the LDV dataset and the benchmark are useful for your research, please cite:
 ```

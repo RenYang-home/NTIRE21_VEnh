@@ -86,7 +86,7 @@ In Tracks 1 and 2, videos are compressed in the YUV domain by the Low-delay P mo
 path_to_HM16.20/bin/TAppEncoderStatic
 -c path_to_HM16.20/cfg/encoder_lowdelay_P_main.cfg
 -c path_to_HM16.20/cfg/per-sequence/BasketballDrill.cfg
--i xxx.yuv -q 37 -wdt  (width) -hgt (height) -f (frame_num) -fr (frame_rate)
+-i xxx.yuv -q 37 -wdt (width) -hgt (height) -f (frame_num) -fr (frame_rate)
 -b xxx.mkv
 ```
 Note that “BasketballDrill.cfg” is a randomly selected file, and most of its information are replaced by the following configurations. Width, height, frame number and frame rate values are available in the info excel files (refer to the links above).

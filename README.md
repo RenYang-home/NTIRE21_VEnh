@@ -29,6 +29,8 @@ The proposed LDV dataset is used in the NTIRE 2021 challenge. It contains 240 vi
 
 > Ren Yang and Radu Timofte, "NTIRE 2021 Challenge on Quality Enhancement of Compressed Video: Dataset and Study", in IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops, 2021. [[Paper]](https://arxiv.org/abs/2104.10782)
 
+### Download the LDV dataset
+
 #### Training set (200 videos)
 
 Raw: https://data.vision.ee.ethz.ch/reyang/training_raw.zip
@@ -69,6 +71,59 @@ Fixed bit-rate: https://data.vision.ee.ethz.ch/reyang/test_fixed-rate_release.zi
 
 Info: https://data.vision.ee.ethz.ch/reyang/data_test_2.xlsx (resolution, frame-rate, etc.)
 
+### Compression configurations
+
+#### Tracks 1 and 2 (fixed QP)
+
+In Tracks 1 and 2, videos are compressed in the YUV domain by the Low-delay P mode HM 16.20 at QP 37. The raw YUV videos are losslessly compressed to mkv via ffmpeg x265 to reduce the file sizes.
+
+1. To reproduce the compression of data, please first convert mkv files to YUV domain. The ffmpeg x265 decoder is recommended, e.g., “ffmpeg -i 001.mkv -pix_fmt yuv420p 001.yuv”
+
+2. Download HM 16.20 at https://hevc.hhi.fraunhofer.de/svn/svn_HEVCSoftware/tags/HM-16.20 or https://data.vision.ee.ethz.ch/reyang/HM16.20.zip
+
+3. Compress yuv files by the command:
+
+“path_to_HM16.20/bin/TAppEncoderStatic
+
+-c path_to_HM16.20/cfg/encoder_lowdelay_P_main.cfg
+
+-c path_to_HM16.20/cfg/per-sequence/BasketballDrill.cfg
+
+-i xxx.yuv -q 37 -wdt  (width) -hgt (height) -f (frame_num) -fr (frame_rate)
+
+-b xxx.mkv“
+
+Note that “BasketballDrill.cfg” is a randomly selected file, and most of its information are replaced by the following configurations. Width, height, frame number and frame rate values are available in the info excel files, see “Data Access” above.
+
+4. The quality is evaluated in the RGB domain by PSNR. Please convert raw, compressed (and enhanced) videos to RGB domain for evaluation, e.g.,
+
+“ffmpeg -i path_to_raw/001.mkv ./raw_001/%3d.png”
+
+“ffmpeg -i path_to_compressed/001.mkv ./001/%3d.png”
+
+#### Track 3 (fixed bit-rate)
+
+In this track, videos are compressed in the YUV domain by x265 of ffmpeg 4.3.1 at 200kbps. The raw YUV videos are losslessly compressed to mkv via ffmpeg x265 to reduce the file sizes.
+
+1. To reproduce the compression of data, please first convert mkv files to YUV domain. The ffmpeg x265 decoder is recommended, e.g., “ffmpeg -i 001.mkv -pix_fmt yuv420p 001.yuv”
+
+2. Download ffmpeg 4.3.1 at https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz or https://data.vision.ee.ethz.ch/reyang/ffmpeg-release-amd64-static.tar.xz
+ 
+3. Compress yuv files at 200kbps via the two-pass rate control strategy, which ensures an accurate rate control:
+
+ffmpeg -pix_fmt yuv420p -s (width)x(height) -r (frame_rate) -i xxx.yuv -c:v libx265 -b:v 200k -x265-params pass=1:log-level=error -f null /dev/null
+
+ffmpeg -pix_fmt yuv420p -s (width)x(height) -r (frame_rate) -i xxx.yuv -c:v libx265 -b:v 200k -x265-params pass=2:log-level=error xxx.mkv
+
+Note that width, height, frame number and frame rate values are available in the info excel files, see “Data Access” above.
+
+4. The quality is evaluated in the RGB domain by PSNR. Please convert raw, compressed (and enhanced) videos to RGB domain for evaluation, e.g.,
+
+“ffmpeg -i path_to_raw/001.mkv ./raw_001/%3d.png”
+
+“ffmpeg -i path_to_compressed/001.mkv ./001/%3d.png”
+
+
 ## NTIRE 2021 Benchmark
 
 The methods and results of the NTIRE 2021 benchmark are discripted in the methods report:
@@ -77,7 +132,7 @@ The methods and results of the NTIRE 2021 benchmark are discripted in the method
 
 To make the benchmark more convincing and solid, we will update the open source codes of the proposed methods in the following.
 
-### Codes and Models (keep updating)
+### Codes and models (keep updating)
 
 **BILIBILI AI & FDU Team**
 

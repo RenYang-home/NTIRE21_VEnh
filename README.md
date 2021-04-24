@@ -91,14 +91,13 @@ path_to_HM16.20/bin/TAppEncoderStatic
 
 -i xxx.yuv -q 37 -wdt  (width) -hgt (height) -f (frame_num) -fr (frame_rate)
 
--b xxx.mkv“
+-b xxx.mkv
 ```
 Note that “BasketballDrill.cfg” is a randomly selected file, and most of its information are replaced by the following configurations. Width, height, frame number and frame rate values are available in the info excel files, see “Data Access” above.
 
 4. The quality is evaluated in the RGB domain by PSNR. Please convert raw, compressed (and enhanced) videos to RGB domain for evaluation, e.g.,
 ```
 ffmpeg -i path_to_raw/001.mkv ./raw_001/%3d.png
-
 ffmpeg -i path_to_compressed/001.mkv ./001/%3d.png
 ```
 
@@ -114,7 +113,6 @@ In this track, videos are compressed in the YUV domain by x265 of ffmpeg 4.3.1 a
 4. 
 ```
 ffmpeg -pix_fmt yuv420p -s (width)x(height) -r (frame_rate) -i xxx.yuv -c:v libx265 -b:v 200k -x265-params pass=1:log-level=error -f null /dev/null
-
 ffmpeg -pix_fmt yuv420p -s (width)x(height) -r (frame_rate) -i xxx.yuv -c:v libx265 -b:v 200k -x265-params pass=2:log-level=error xxx.mkv
 ```
 
@@ -123,7 +121,6 @@ Note that width, height, frame number and frame rate values are available in the
 4. The quality is evaluated in the RGB domain by PSNR. Please convert raw, compressed (and enhanced) videos to RGB domain for evaluation, e.g.,
 ```
 ffmpeg -i path_to_raw/001.mkv ./raw_001/%3d.png
-
 ffmpeg -i path_to_compressed/001.mkv ./001/%3d.png
 ```
 

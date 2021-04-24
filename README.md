@@ -23,7 +23,7 @@ Ren Yang @ ETH Zurich, Switzerland
 
 Email: ren.yang@vision.ee.ethz.ch
 
-## The Large-scale Diverse Video (LDV) Dataset
+## Large-scale Diverse Video (LDV) Dataset
 
 The proposed LDV dataset is used in the NTIRE 2021 challenge. It contains 240 videos with diverse categories of content, different kinds of motion and various frame-rates. The details of the proposed LDV dataset are discribed in the dataset report:
 
@@ -69,4 +69,21 @@ Fixed bit-rate: https://data.vision.ee.ethz.ch/reyang/test_fixed-rate_release.zi
 
 Info: https://data.vision.ee.ethz.ch/reyang/data_test_2.xlsx (resolution, frame-rate, etc.)
 
-## The NTIRE 2021 Benchmark
+## NTIRE 2021 Benchmark
+
+The methods and results of the NTIRE 2021 benchmark are discripted in the methods report:
+
+> Ren Yang, Radu Timofte, et al., "NTIRE 2021 Challenge on Quality Enhancement of Compressed Video: Methods and Results", in IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops, 2021. [[Paper]](https://arxiv.org/abs/2104.10781)
+
+To make the benchmark more convincing and solid, we will update the open source codes of the proposed methods in the following.
+
+### Codes and Models
+
+BILIBILI AI & FDU Team: Winner of Tracks 1 and 2
+
+Code: (may release later)
+
+NTU-SLab Team: Winner of Tracks 1 and 3
+
+Code: (may release later)
+

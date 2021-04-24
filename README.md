@@ -17,7 +17,7 @@ The homepage for the NTIRE 2021 Challenge on Quality Enhancement of Compressed V
 }
 ```
 
-If you have any question, find dead links or bugs, please feel free to contact:
+If you have questions, find dead links or bugs, please feel free to contact:
 
 Ren Yang @ ETH Zurich, Switzerland   
 

@@ -17,3 +17,17 @@ The homepage for the NTIRE 2021 Challenge on Quality Enhancement of Compressed V
 }
 ```
 
+## The Large-scale Diverse Video (LDV) dataset
+
+The proposed LDV dataset is used in the NTIRE 2021 challenge. It contains 240 videos with diverse categories of content, different kinds of motion and various frame-rates. The details of the proposed LDV dataset are discribed in the dataset report:
+
+> Ren Yang and Radu Timofte, "NTIRE 2021 Challenge on Quality Enhancement of Compressed Video: Dataset and Study", in IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops, 2021. [[Paper]](https://arxiv.org/abs/2104.10782)
+
+### Training set (200 videos)
+
+### Validation set (20 videos)
+
+### Test set for Tracks 1 and 2 (10 videos)
+
+### Test set for Track 3 (10 videos)
+

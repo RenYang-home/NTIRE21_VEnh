@@ -29,7 +29,7 @@ Email: ren.yang@vision.ee.ethz.ch
 
 ## Large-scale Diverse Video (LDV) Dataset
 
-The proposed LDV dataset is used in the NTIRE 2021 challenge. It contains 240 videos with diverse categories of content, different kinds of motion and various frame-rates. The details of the proposed LDV dataset are discribed in the dataset report:
+The proposed LDV dataset is used in the NTIRE 2021 challenge. It currently contains 240 videos with diverse categories of content, different kinds of motion and various frame-rates. The dataset may be further extended in the future. The details of the proposed LDV dataset are discribed in the dataset report:
 
 > Ren Yang and Radu Timofte, "NTIRE 2021 Challenge on Quality Enhancement of Compressed Video: Dataset and Study", in IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops, 2021. [[Paper]](https://arxiv.org/abs/2104.10782)
 

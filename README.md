@@ -145,6 +145,12 @@ Winner of Tracks 1 and 3, good trade-off between running time and PSNR, good gen
 
 Code: (may release later)
 
+**VIP&DJI Team**
+
+Code for Track 1: https://github.com/yiyunchen/CVQENet
+
+Code for Track 3: https://github.com/littlewhitesea/NTIRE2021_compressed_video_enhancement
+
 **MFQE, QE-CNN, DnCNN, and ARCNN (for Track 1)**
 
 Baseline models

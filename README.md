@@ -145,10 +145,10 @@ Winner of Tracks 1 and 3, good trade-off between running time and PSNR, good gen
 
 Code: (may release later)
 
-**MFQE**
+**MFQE (for Track 1)**
 
 Code: (will be released by the organizer)
 
-**QE-CNN**
+**QE-CNN, DnCNN, and ARCNN (for Track 1)**
 
 Code: (will be released by the organizer)

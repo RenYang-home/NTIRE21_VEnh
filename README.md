@@ -155,5 +155,5 @@ Code for Track 3: https://github.com/littlewhitesea/NTIRE2021_compressed_video_e
 
 Baseline models
 
-Code: (will be released by the organizer)
+Code: https://github.com/RenYang-home/NTIRE21_VEnh_Baseline (keep updating)
 

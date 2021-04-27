@@ -2,7 +2,7 @@
 
 The homepage for the NTIRE 2021 Challenge on Quality Enhancement of Compressed Video. 
 
-This challenged is organized by [Ren Yang](https://renyang-home.github.io/) and [Radu Timofte](https://people.ee.ethz.ch/~timofter/) (ETH Zurich) as a part of the [NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire21/) in conjunction with [CVPR 2021](http://cvpr2021.thecvf.com/workshops-schedule).
+This challenged is organized by [Ren Yang](https://renyang-home.github.io/) and [Dr. Radu Timofte](https://people.ee.ethz.ch/~timofter/) (ETH Zurich) as a part of the [NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire21/) in conjunction with [CVPR 2021](http://cvpr2021.thecvf.com/workshops-schedule).
 
 If the LDV dataset and the benchmark are useful for your research, please cite:
 ```

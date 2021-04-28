@@ -151,13 +151,13 @@ Code for Track 1: https://github.com/yiyunchen/CVQENet
 
 Code for Track 3: https://github.com/littlewhitesea/NTIRE2021_compressed_video_enhancement
 
-**Ivp-tencent Team**
+**Ivp-tencent Team (Track 1)**
 
 Most time-efficient method (120 fps for video enhancement)
 
 Code: https://github.com/zxy110/BRNet (may release the training code later)
 
-**MFQE, QE-CNN, DnCNN, and ARCNN (for Track 1)**
+**MFQE, QE-CNN, DnCNN, and ARCNN (Track 1)**
 
 Baseline models
 

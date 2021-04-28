@@ -145,6 +145,10 @@ Winner of Tracks 1 and 3, good trade-off between running time and PSNR, good gen
 
 Code: (may release later)
 
+**NJU-Vision Team** (Contact: Ming Lu, luming@smail.nju.edu.cn)
+
+Code for Track 1: https://github.com/lumingzzz/QENet
+
 **VIP&DJI Team** (Contact: Hai Wang, wanghai19@mails.tsinghua.edu.cn)
 
 Code for Track 1: https://github.com/yiyunchen/CVQENet

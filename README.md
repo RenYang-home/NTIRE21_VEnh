@@ -135,39 +135,39 @@ To make the benchmark more convincing and solid, we will update the open source 
 
 - **BILIBILI AI & FDU Team** (Contact: Jing Liu & Yi Xu, liujing04@bilibili.com, yxu17@fudan.edu.cn)
 
-Winner of Tracks 1 and 2
+  Winner of Tracks 1 and 2
 
-Code: (may release later)
+  Code: (may release later)
 
 - **NTU-SLab Team** (Contact: Kelvin C.K. Chan, chan0899@e.ntu.edu.sg)
 
-Winner of Tracks 1 and 3, good trade-off between running time and PSNR, good generalization
+  Winner of Tracks 1 and 3, good trade-off between running time and PSNR, good generalization
 
-Code: (may release later)
+  Code: (may release later)
 
 - **NJU-Vision Team** (Contact: Ming Lu, luming@smail.nju.edu.cn)
 
-Code for Track 1: https://github.com/lumingzzz/QENet
+  Code for Track 1: https://github.com/lumingzzz/QENet
 
 - **VIP&DJI Team** (Contact: Hai Wang, wanghai19@mails.tsinghua.edu.cn)
 
-Code for Track 1: https://github.com/yiyunchen/CVQENet
+  Code for Track 1: https://github.com/yiyunchen/CVQENet
 
-Code for Track 3: https://github.com/littlewhitesea/NTIRE2021_compressed_video_enhancement
+  Code for Track 3: https://github.com/littlewhitesea/NTIRE2021_compressed_video_enhancement
 
 - **Shannon Team** (Contact: Dewang Hou, dewh@pku.edu.cn)
 
-Code: (may release later)
+  Code: (may release later)
 
 - **Ivp-tencent Team** (Contact: Xiaoyu Zhang, zxy2019@pku.edu.cn)
 
-Most time-efficient method (120 fps for video enhancement)
+  Most time-efficient method (120 fps for video enhancement)
 
-Code for Track 1: https://github.com/zxy110/BRNet (may release the training code later)
+  Code for Track 1: https://github.com/zxy110/BRNet (may release the training code later)
 
 - **MFQE, QE-CNN, DnCNN, and ARCNN** (Contact: Ren Yang, ren.yang@vision.ee.ethz.ch)
 
-Baseline models
+  Baseline models
 
-Code for Track 1: https://github.com/RenYang-home/NTIRE21_VEnh_Baseline (keep updating)
+  Code for Track 1: https://github.com/RenYang-home/NTIRE21_VEnh_Baseline (keep updating)
 

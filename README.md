@@ -139,27 +139,31 @@ Winner of Tracks 1 and 2
 
 Code: (may release later)
 
-**NTU-SLab Team**
+**NTU-SLab Team** (Contact: Kelvin C.K. Chan, chan0899@e.ntu.edu.sg)
 
 Winner of Tracks 1 and 3, good trade-off between running time and PSNR, good generalization
 
 Code: (may release later)
 
-**VIP&DJI Team**
+**VIP&DJI Team** (Contact: Hai Wang, wanghai19@mails.tsinghua.edu.cn)
 
 Code for Track 1: https://github.com/yiyunchen/CVQENet
 
 Code for Track 3: https://github.com/littlewhitesea/NTIRE2021_compressed_video_enhancement
 
-**Ivp-tencent Team (Track 1)**
+**Shannon Team** (Contact: Dewang Hou, dewh@pku.edu.cn)
+
+Code: (may release later)
+
+**Ivp-tencent Team** (Contact: Xiaoyu Zhang, zxy2019@pku.edu.cn)
 
 Most time-efficient method (120 fps for video enhancement)
 
-Code: https://github.com/zxy110/BRNet (may release the training code later)
+Code for Track 1: https://github.com/zxy110/BRNet (may release the training code later)
 
-**MFQE, QE-CNN, DnCNN, and ARCNN (Track 1)**
+**MFQE, QE-CNN, DnCNN, and ARCNN** (Contact: Ren Yang, ren.yang@vision.ee.ethz.ch)
 
 Baseline models
 
-Code: https://github.com/RenYang-home/NTIRE21_VEnh_Baseline (keep updating)
+Code for Track 1: https://github.com/RenYang-home/NTIRE21_VEnh_Baseline (keep updating)
 

@@ -35,45 +35,29 @@ The proposed LDV dataset is used in the NTIRE 2021 challenge. It currently conta
 
 ### Download the LDV dataset
 
-#### Training set (200 videos)
+- Training set (200 videos) 
+[[Raw]](https://data.vision.ee.ethz.ch/reyang/training_raw.zip) 
+[[Fixed QP]](https://data.vision.ee.ethz.ch/reyang/training_fixed-QP.zip)
+[[Fixed bit-rate]](https://data.vision.ee.ethz.ch/reyang/training_fixed-rate.zip)
+[[Info]](https://data.vision.ee.ethz.ch/reyang/data_train.xlsx)
 
-Raw: https://data.vision.ee.ethz.ch/reyang/training_raw.zip
+- Validation set (20 videos)
+[[Raw]](https://data.vision.ee.ethz.ch/reyang/validation_raw.zip)
+[[Fixed QP]](https://data.vision.ee.ethz.ch/reyang/validation_fixed-QP.zip)
+[[Fixed bit-rate]](https://data.vision.ee.ethz.ch/reyang/validation_fixed-rate.zip)
+[[Info]](https://data.vision.ee.ethz.ch/reyang/data_validation.xlsx)
 
-Fixed QP: https://data.vision.ee.ethz.ch/reyang/training_fixed-QP.zip
+- Test set for Tracks 1 and 2 (10 videos)
+[[Raw]](https://data.vision.ee.ethz.ch/reyang/test_raw_1.zip)
+[[Fixed QP]](https://data.vision.ee.ethz.ch/reyang/test_fixed-QP_release.zip)
+[[Fixed bit-rate]](https://data.vision.ee.ethz.ch/reyang/test_fixed-rate_1.zip)
+[[Info]](https://data.vision.ee.ethz.ch/reyang/data_test_1.xlsx)
 
-Fixed bit-rate: https://data.vision.ee.ethz.ch/reyang/training_fixed-rate.zip
-
-Info: https://data.vision.ee.ethz.ch/reyang/data_train.xlsx (resolution, frame-rate, etc.)
-
-#### Validation set (20 videos)
-
-Raw: https://data.vision.ee.ethz.ch/reyang/validation_raw.zip
-
-Fixed QP: https://data.vision.ee.ethz.ch/reyang/validation_fixed-QP.zip
-
-Fixed bit-rate: https://data.vision.ee.ethz.ch/reyang/validation_fixed-rate.zip
-
-Info: https://data.vision.ee.ethz.ch/reyang/data_validation.xlsx (resolution, frame-rate, etc.)
-
-#### Test set for Tracks 1 and 2 (10 videos)
-
-Raw: https://data.vision.ee.ethz.ch/reyang/test_raw_1.zip
-
-Fixed QP: https://data.vision.ee.ethz.ch/reyang/test_fixed-QP_release.zip
-
-Fixed bit-rate: https://data.vision.ee.ethz.ch/reyang/test_fixed-rate_1.zip (not used in the challenge)
-
-Info: https://data.vision.ee.ethz.ch/reyang/data_test_1.xlsx (resolution, frame-rate, etc.)
-
-#### Test set for Track 3 (10 videos)
-
-Raw: https://data.vision.ee.ethz.ch/reyang/test_raw_2.zip
-
-Fixed QP: https://data.vision.ee.ethz.ch/reyang/test_fixed-QP_2.zip (not used in the challenge)
-
-Fixed bit-rate: https://data.vision.ee.ethz.ch/reyang/test_fixed-rate_release.zip
-
-Info: https://data.vision.ee.ethz.ch/reyang/data_test_2.xlsx (resolution, frame-rate, etc.)
+- Test set for Track 3 (10 videos)
+[[Raw]](https://data.vision.ee.ethz.ch/reyang/test_raw_2.zip)
+[[Fixed QP]](https://data.vision.ee.ethz.ch/reyang/test_fixed-QP_2.zip)
+[[Fixed bit-rate]](https://data.vision.ee.ethz.ch/reyang/test_fixed-rate_release.zip)
+[[Info]](https://data.vision.ee.ethz.ch/reyang/data_test_2.xlsx) 
 
 ### Compression configurations
 
@@ -142,8 +126,10 @@ To make the benchmark more convincing and solid, we will update the open source 
 - **NTU-SLab Team** (Contact: Kelvin C.K. Chan, chan0899@e.ntu.edu.sg)
 
   Winner of Tracks 1 and 3, good trade-off between running time and PSNR, good generalization
+  
+  Paper: https://arxiv.org/abs/2104.13371
 
-  Code: (may release later)
+  Code: (may release later to MMEditing)
 
 - **NJU-Vision Team** (Contact: Ming Lu, luming@smail.nju.edu.cn)
 

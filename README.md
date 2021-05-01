@@ -59,6 +59,12 @@ The proposed LDV dataset is used in the NTIRE 2021 challenge. It currently conta
 [[Fixed bit-rate]](https://data.vision.ee.ethz.ch/reyang/test_fixed-rate_release.zip)
 [[Info]](https://data.vision.ee.ethz.ch/reyang/data_test_2.xlsx) 
 
+The NTIRE 2021 challenge evaluates methods in the **RGB domain**. Hence, please convert the mkv videos to png images for test and evaluation:
+
+```
+ffmpeg -i xxx.mkv ./xxx/%3d.png
+```
+
 ### Compression configurations
 
 #### Tracks 1 and 2 (fixed QP)

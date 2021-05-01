@@ -165,7 +165,7 @@ To make the benchmark more convincing and solid, we will update the open source 
   
 - **BOE-IOT-AIBD Team** (Contact: Pablo Navarrete Michelini, pnavarre@ieee.org)
 
-  Related paper: https://arxiv.org/abs/2101.00150
+  - Related paper: https://arxiv.org/abs/2101.00150
 
 - **MFQE, QE-CNN, DnCNN, and ARCNN** (Contact: Ren Yang, ren.yang@vision.ee.ethz.ch)
 

@@ -139,7 +139,7 @@ To make the benchmark more convincing and solid, we will update the open source 
 
   - Code: (may release later to MMEditing)
   
-- **VUE Team** (Contact: Xin Li, lixin41@baidu.com)
+- **VUE Team** (Contact: Xin Li & He Zheng, lixin41@baidu.com, zhenghe01@baidu.com)
 
   - Paper for Track 2: (may be published later)
 

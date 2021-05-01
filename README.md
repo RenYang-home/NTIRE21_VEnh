@@ -153,7 +153,7 @@ To make the benchmark more convincing and solid, we will update the open source 
 
 - **Ivp-tencent Team** (Contact: Xiaoyu Zhang, zxy2019@pku.edu.cn)
 
-  Most time-efficient method (120 fps for video enhancement)
+  Most time-efficient method (120 fps with better quality performance then the baseline models)
 
   - Code for Track 1: https://github.com/zxy110/BRNet (may release the training code later)
 

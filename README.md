@@ -161,5 +161,5 @@ To make the benchmark more convincing and solid, we will update the open source 
 
   Baseline models
 
-  Code for Track 1: https://github.com/RenYang-home/NTIRE21_VEnh_Baseline (keep updating)
+  Code for Track 1: https://github.com/RenYang-home/NTIRE21_VEnh_Baseline
 

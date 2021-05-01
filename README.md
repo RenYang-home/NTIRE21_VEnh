@@ -161,7 +161,7 @@ To make the benchmark more convincing and solid, we will update the open source 
 
   Most time-efficient method (120 fps with better quality performance then the baseline models)
 
-  - Code for Track 1: https://github.com/zxy110/BRNet (may release the training code later)
+  - Code for Track 1: https://github.com/zxy110/BRNet 
 
 - **MFQE, QE-CNN, DnCNN, and ARCNN** (Contact: Ren Yang, ren.yang@vision.ee.ethz.ch)
 

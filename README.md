@@ -162,6 +162,10 @@ To make the benchmark more convincing and solid, we will update the open source 
   Most time-efficient method (120 fps with better quality performance then the baseline models)
 
   - Code for Track 1: https://github.com/zxy110/BRNet 
+  
+- **BOE-IOT-AIBD Team** (Contact: Pablo Navarrete Michelini, pnavarre@ieee.org)
+
+  Related paper: https://arxiv.org/abs/2101.00150
 
 - **MFQE, QE-CNN, DnCNN, and ARCNN** (Contact: Ren Yang, ren.yang@vision.ee.ethz.ch)
 

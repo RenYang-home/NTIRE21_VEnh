@@ -121,7 +121,7 @@ The methods and results of the NTIRE 2021 benchmark are discribed in the methods
 
 To make the benchmark more convincing and solid, we will update the open source codes of the proposed methods in the following.
 
-### Codes and models (keep updating)
+### Papers, codes and models (keep updating)
 
 - **BILIBILI AI & FDU Team** (Contact: Jing Liu & Yi Xu, liujing04@bilibili.com, yxu17@fudan.edu.cn)
 

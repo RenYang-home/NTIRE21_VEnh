@@ -121,7 +121,7 @@ To make the benchmark more convincing and solid, we will update the open source 
 
   Winner of Tracks 1 and 2, Runner-up of Track 3
 
-  Code: (may release later)
+  - Code: (may release later)
 
 - **NTU-SLab Team** (Contact: Kelvin C.K. Chan, chan0899@e.ntu.edu.sg)
 
@@ -129,37 +129,37 @@ To make the benchmark more convincing and solid, we will update the open source 
   
   Good neneralization, Good trade-off between running time and PSNR
   
-  Paper: https://arxiv.org/abs/2104.13371
+  - Paper: https://arxiv.org/abs/2104.13371
 
-  Code: (may release later to MMEditing)
+  - Code: (may release later to MMEditing)
   
 - **VUE Team** (Contact: Xin Li, lixin41@baidu.com)
 
-  Paper for Track 2: (may be published later)
+  - Paper for Track 2: (may be published later)
 
 - **NJU-Vision Team** (Contact: Ming Lu, luming@smail.nju.edu.cn)
 
-  Code for Track 1: https://github.com/lumingzzz/QENet
+  - Code for Track 1: https://github.com/lumingzzz/QENet
 
 - **VIP&DJI Team** (Contact: Hai Wang, wanghai19@mails.tsinghua.edu.cn)
 
-  Code for Track 1: https://github.com/yiyunchen/CVQENet
+  - Code for Track 1: https://github.com/yiyunchen/CVQENet
 
-  Code for Track 3: https://github.com/littlewhitesea/NTIRE2021_compressed_video_enhancement
+  - Code for Track 3: https://github.com/littlewhitesea/NTIRE2021_compressed_video_enhancement
 
 - **Shannon Team** (Contact: Dewang Hou, dewh@pku.edu.cn)
 
-  Code: (may release later)
+  - Code: (may release later)
 
 - **Ivp-tencent Team** (Contact: Xiaoyu Zhang, zxy2019@pku.edu.cn)
 
   Most time-efficient method (120 fps for video enhancement)
 
-  Code for Track 1: https://github.com/zxy110/BRNet (may release the training code later)
+  - Code for Track 1: https://github.com/zxy110/BRNet (may release the training code later)
 
 - **MFQE, QE-CNN, DnCNN, and ARCNN** (Contact: Ren Yang, ren.yang@vision.ee.ethz.ch)
 
   Baseline models
 
-  Code for Track 1: https://github.com/RenYang-home/NTIRE21_VEnh_Baseline
+  - Code for Track 1: https://github.com/RenYang-home/NTIRE21_VEnh_Baseline
 

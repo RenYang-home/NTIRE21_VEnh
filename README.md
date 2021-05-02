@@ -119,7 +119,7 @@ The methods and results of the NTIRE 2021 benchmark are discribed in the methods
 
 > Ren Yang, Radu Timofte, et al., "NTIRE 2021 Challenge on Quality Enhancement of Compressed Video: Methods and Results", in IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops, 2021. [[Paper]](https://arxiv.org/abs/2104.10781)
 
-To make the benchmark more convincing and solid, we will update the open source codes of the proposed methods in the following.
+To make the benchmark more convincing and solid, we will update the open-source codes of the proposed methods in the following.
 
 ### Papers, codes and models (keep updating)
 

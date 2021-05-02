@@ -157,6 +157,10 @@ To make the benchmark more convincing and solid, we will update the open source 
 
   - Code: (may release later)
 
+- **HNU_CVers Team** (Contact: Yucong Wang, 1401121556@qq.com)
+
+  - Code: https://github.com/wnxbwyc/RCVN-For-Video-Enhancement
+
 - **Ivp-tencent Team** (Contact: Xiaoyu Zhang, zxy2019@pku.edu.cn)
 
   Most time-efficient method (120 fps with better quality performance then the baseline models)

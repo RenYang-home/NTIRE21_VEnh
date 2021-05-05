@@ -155,7 +155,7 @@ To make the benchmark more convincing and solid, we will update the open-source 
 
 - **Shannon Team** (Contact: Dewang Hou, dewh@pku.edu.cn)
 
-  - Code: (may release later)
+  - Code: https://github.com/dwHou/RestorCompressed/tree/master/SHANNON
 
 - **HNU_CVers Team** (Contact: Yucong Wang, 1401121556@qq.com)
 

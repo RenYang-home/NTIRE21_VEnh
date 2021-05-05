@@ -137,7 +137,7 @@ To make the benchmark more convincing and solid, we will update the open-source 
   
   - Paper: https://arxiv.org/abs/2104.13371
 
-  - Code: (may release later to MMEditing)
+  - Code: (may release later)
   
 - **VUE Team** (Contact: Xin Li & He Zheng, lixin41@baidu.com, zhenghe01@baidu.com)
 

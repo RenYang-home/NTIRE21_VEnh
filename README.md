@@ -126,6 +126,8 @@ To make the benchmark more convincing and solid, we will update the open-source 
 - **BILIBILI AI & FDU Team** (Contact: Jing Liu & Yi Xu, liujing04@bilibili.com, yxu17@fudan.edu.cn)
 
   Winner of Tracks 1 and 2, Runner-up of Track 3
+  
+  - Paper: https://arxiv.org/abs/2105.14962
 
   - Code: (may release later)
 

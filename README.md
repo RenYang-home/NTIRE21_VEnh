@@ -143,7 +143,7 @@ To make the benchmark more convincing and solid, we will update the open-source 
   
 - **VUE Team** (Contact: Xin Li & He Zheng, lixin41@baidu.com, zhenghe01@baidu.com)
 
-  - Paper for Track 2: (may be published later)
+  - Paper for Track 2: https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Zheng_Adaptive_Spatial-Temporal_Fusion_of_Multi-Objective_Networks_for_Compressed_Video_Perceptual_CVPRW_2021_paper.pdf
 
 - **NJU-Vision Team** (Contact: Ming Lu, luming@smail.nju.edu.cn)
 

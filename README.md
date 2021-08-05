@@ -123,14 +123,6 @@ To make the benchmark more convincing and solid, we will update the open-source 
 
 ### Papers, codes and models (keep updating)
 
-- **BILIBILI AI & FDU Team** (Contact: Jing Liu & Yi Xu, liujing04@bilibili.com, yxu17@fudan.edu.cn)
-
-  Winner of Tracks 1 and 2, Runner-up of Track 3
-  
-  - Paper: https://arxiv.org/abs/2105.14962
-
-  - Code: (may release later)
-
 - **NTU-SLab Team** (Contact: Kelvin C.K. Chan, chan0899@e.ntu.edu.sg)
 
   Winner of Tracks 1 and 3, Runner-up of Track 2
@@ -139,7 +131,13 @@ To make the benchmark more convincing and solid, we will update the open-source 
   
   - Paper: https://arxiv.org/abs/2104.13371
 
-  - Code: (may release later)
+  - Code: https://github.com/open-mmlab/mmediting/tree/master/configs/restorers/basicvsr_plusplus
+
+- **BILIBILI AI & FDU Team** (Contact: Jing Liu & Yi Xu, liujing04@bilibili.com, yxu17@fudan.edu.cn)
+
+  Winner of Tracks 1 and 2, Runner-up of Track 3
+  
+  - Paper: https://arxiv.org/abs/2105.14962
   
 - **VUE Team** (Contact: Xin Li & He Zheng, lixin41@baidu.com, zhenghe01@baidu.com)
 

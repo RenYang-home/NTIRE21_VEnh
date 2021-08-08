@@ -2,6 +2,8 @@
 
 The homepage for the NTIRE 2021 Challenge on Video Enhancement.  [[Dataset report]](https://arxiv.org/abs/2104.10782) [[Methods report]](https://arxiv.org/abs/2104.10781) 
 
+The **WINNER** team (**NTU-SLab**) released their codes and models at https://github.com/open-mmlab/mmediting/tree/master/configs/restorers/basicvsr_plusplus
+
 This challenged is organized by [Ren Yang](https://renyang-home.github.io/) and [Dr. Radu Timofte](https://people.ee.ethz.ch/~timofter/) (ETH Zurich) as a part of the [NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire21/) in conjunction with [CVPR 2021](http://cvpr2021.thecvf.com/workshops-schedule).
 
 If the LDV dataset and the benchmark are useful for your research, please cite:

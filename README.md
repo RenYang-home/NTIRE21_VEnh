@@ -100,7 +100,7 @@ In this track, videos are compressed in the YUV domain by x265 of ffmpeg 4.3.1 a
 
 1. To reproduce the compression of data, please first convert mkv files to YUV domain. The ffmpeg x265 decoder is recommended, e.g., “ffmpeg -i 001.mkv -pix_fmt yuv420p 001.yuv”
 
-2. Download ffmpeg 4.3.1 at https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz or https://data.vision.ee.ethz.ch/reyang/ffmpeg-release-amd64-static.tar.xz
+2. Download ffmpeg 4.3.1 at https://data.vision.ee.ethz.ch/reyang/ffmpeg-release-amd64-static.tar.xz
  
 3. Compress yuv files at 200kbps via the two-pass rate control strategy, which ensures an accurate rate control:
 ```

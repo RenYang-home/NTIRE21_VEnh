@@ -71,7 +71,7 @@ ffmpeg -i xxx.mkv -pix_fmt yuv420p xxx.yuv
 ffmpeg -i xxx.mkv ./xxx/%3d.png
 ```
 
-### Compression configurations
+### Challenge
 
 #### Tracks 1 and 2 (fixed QP)
 

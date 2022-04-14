@@ -32,7 +32,7 @@ Email: ren.yang@vision.ee.ethz.ch
 
 ## Large-scale Diverse Video (LDV) Dataset
 
-![#f03c15] The latest LDV 2.0 dataset (335 videos, LDV + 95 videos) is available at https://github.com/RenYang-home/LDV_dataset
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) The latest LDV 2.0 dataset (335 videos, LDV + 95 videos) is available at https://github.com/RenYang-home/LDV_dataset
 
 The proposed LDV dataset is used in the NTIRE 2021 challenge. It currently contains 240 videos with diverse categories of content, different kinds of motion and various frame-rates. The dataset may be further extended in the future. The details of the proposed LDV dataset are discribed in the dataset report:
 

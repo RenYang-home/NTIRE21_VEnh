@@ -32,13 +32,13 @@ Email: ren.yang@vision.ee.ethz.ch
 
 ## Large-scale Diverse Video (LDV) Dataset
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) The latest LDV 2.0 dataset (335 videos, LDV + 95 videos) is available at https://github.com/RenYang-home/LDV_dataset
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) The latest LDV 2.0 dataset (335 videos, LDV 1.0 + 95 videos) is available at https://github.com/RenYang-home/LDV_dataset
 
-The proposed LDV dataset is used in the NTIRE 2021 challenge. It currently contains 240 videos with diverse categories of content, different kinds of motion and various frame-rates. The dataset may be further extended in the future. The details of the proposed LDV dataset are discribed in the dataset report:
+The proposed LDV 1.0 dataset is used in the NTIRE 2021 challenge. It currently contains 240 videos with diverse categories of content, different kinds of motion and various frame-rates. The dataset may be further extended in the future. The details of the proposed LDV dataset are discribed in the dataset report:
 
 > Ren Yang and Radu Timofte, "NTIRE 2021 Challenge on Quality Enhancement of Compressed Video: Dataset and Study", in IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops, 2021. [[Paper]](https://arxiv.org/abs/2104.10782)
 
-### Download the LDV dataset
+### Download the LDV 1.0 dataset
 
 - Training set (200 videos) 
 [[Raw]](https://data.vision.ee.ethz.ch/reyang/training_raw.zip) 
@@ -64,9 +64,10 @@ The proposed LDV dataset is used in the NTIRE 2021 challenge. It currently conta
 [[Fixed bit-rate]](https://data.vision.ee.ethz.ch/reyang/test_fixed-rate_release.zip)
 [[Info]](https://data.vision.ee.ethz.ch/reyang/data_test_2.xlsx) 
 
-The NTIRE 2021 challenge evaluates methods in the **RGB domain**. Hence, please convert the mkv videos to png images for test and evaluation:
+The NTIRE 2021 challenge compresses videos in the **YUV domain** and evaluates results in the **RGB domain**. The following commands can be used to convert the videos to the YUV and RGB domains, respectively. 
 
 ```
+ffmpeg -i xxx.mkv -pix_fmt yuv420p xxx.yuv
 ffmpeg -i xxx.mkv ./xxx/%3d.png
 ```
 

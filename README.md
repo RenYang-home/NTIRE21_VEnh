@@ -1,4 +1,4 @@
-The homepage for the NTIRE 2022 Challenge on Super-Resolution and Quality Enhancement of Compressed Video is available at https://github.com/RenYang-home/NTIRE22_VEnh_SR
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) The homepage for the **NTIRE 2022** Challenge on Super-Resolution and Quality Enhancement of Compressed Video is available at https://github.com/RenYang-home/NTIRE22_VEnh_SR
 
 # NTIRE 2021 Challenge on Quality Enhancement of Compressed Video
 

@@ -1,10 +1,10 @@
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) The homepage for the **NTIRE 2022** Challenge on Super-Resolution and Quality Enhancement of Compressed Video is available at https://github.com/RenYang-home/NTIRE22_VEnh_SR
+The homepage for the **NTIRE 2022** Challenge on Super-Resolution and Quality Enhancement of Compressed Video is available at https://github.com/RenYang-home/NTIRE22_VEnh_SR
 
 # NTIRE 2021 Challenge on Quality Enhancement of Compressed Video
 
 The homepage for the NTIRE 2021 Challenge on Video Enhancement.  [[Dataset report]](https://arxiv.org/abs/2104.10782) [[Methods report]](https://arxiv.org/abs/2104.10781) 
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+
  **The WINNER team (NTU-SLab) released their codes and models at https://github.com/open-mmlab/mmediting/tree/master/configs/restorers/basicvsr_plusplus**
 
 This challenged is organized by [Ren Yang](https://renyang-home.github.io/) and [Dr. Radu Timofte](https://people.ee.ethz.ch/~timofter/) (ETH Zurich) as a part of the [NTIRE workshop](https://data.vision.ee.ethz.ch/cvl/ntire21/) in conjunction with [CVPR 2021](http://cvpr2021.thecvf.com/workshops-schedule).

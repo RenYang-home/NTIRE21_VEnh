@@ -1,5 +1,7 @@
 The homepage for the **NTIRE 2022** Challenge on Super-Resolution and Quality Enhancement of Compressed Video is available at https://github.com/RenYang-home/NTIRE22_VEnh_SR
 
+The homepage for the **AIM 2022** Challenge on Super-Resolution of Compressed Image and Video is available at https://github.com/RenYang-home/AIM22_CompressSR
+
 # NTIRE 2021 Challenge on Quality Enhancement of Compressed Video
 
 The homepage for the NTIRE 2021 Challenge on Video Enhancement.  [[Dataset report]](https://arxiv.org/abs/2104.10782) [[Methods report]](https://arxiv.org/abs/2104.10781) 
@@ -34,7 +36,7 @@ Email: ren.yang@vision.ee.ethz.ch
 
 ## Large-scale Diverse Video (LDV) Dataset
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) The latest LDV 2.0 dataset (335 videos, LDV 1.0 + 95 videos) is available at https://github.com/RenYang-home/LDV_dataset
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) The latest LDV 3.0 dataset (365 videos) is available at https://github.com/RenYang-home/LDV_dataset
 
 The proposed LDV 1.0 dataset is used in the NTIRE 2021 challenge. It currently contains 240 videos with diverse categories of content, different kinds of motion and various frame-rates. The dataset may be further extended in the future. The details of the proposed LDV dataset are discribed in the dataset report:
 
